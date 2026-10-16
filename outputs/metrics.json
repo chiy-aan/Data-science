@@ -1,0 +1,46 @@
+{
+  "best_params": {
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "n_estimators": 100
+  },
+  "cv_r2": 0.7700066509741617,
+  "test_r2": 0.780509395935977,
+  "mae": 3827.212030168805,
+  "rmse": 5544.986599440335,
+  "info": {
+    "rows": 1338,
+    "cols": 7,
+    "missing": 0,
+    "duplicates": 0
+  },
+  "correlations": {
+    "smoker": 0.763,
+    "age": 0.325,
+    "bmi": 0.166,
+    "children": 0.057,
+    "region_southeast": 0.04,
+    "sex": 0.033,
+    "region_northeast": -0.006,
+    "region_southwest": -0.015,
+    "region_northwest": -0.017
+  },
+  "importance": {
+    "smoker": 0.8455,
+    "age": 0.1746,
+    "bmi": 0.0916,
+    "smoker_obese": 0.0703,
+    "children": 0.0306,
+    "bmi_category": 0.0,
+    "sex": -0.0001,
+    "region": -0.0018
+  },
+  "n_train": 1070,
+  "n_test": 268,
+  "smoker_mean": {
+    "no": 11602.0,
+    "yes": 34891.0
+  },
+  "age_corr": 0.32474284406180826,
+  "bmi_corr": 0.16551028441070412
+}
